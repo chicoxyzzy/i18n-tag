@@ -13,7 +13,7 @@ npm install --save i18n-tag
 
 __i18n.js__
 ```javascript
-import createI18n from 'i18n';
+import { createI18n } from 'i18n-tag';
 
 const vocabulary_ru = {
   '{0} parrots': '{0} попугаев'
